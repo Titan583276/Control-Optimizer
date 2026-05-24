@@ -198,54 +198,6 @@ def crossover_frequency(L, omega=None, tol_db=1e-3):
     wc = 10 ** logwc
     return wc
 
-# TODO: kann raus
-def dominant_pole_realpart(denominator):
-    """Return the real part of the dominant (slowest stable) pole.
-
-    The dominant pole is defined as the stable pole whose real part is
-    closest to the imaginary axis from the left (i.e., the largest negative
-    real part). This pole determines the slowest exponential decay of the
-    system.
-
-    The poles are computed from the denominator polynomial:
-
-        denominator[0] * s^n + denominator[1] * s^(n-1) + ... + denominator[n]
-
-    Args:
-        denominator (array_like):
-            Polynomial coefficients in descending powers of ``s``.
-            Example: ``[1, 4, 6, 4, 1]`` represents
-            :math:`s^4 + 4s^3 + 6s^2 + 4s + 1`.
-
-    Returns:
-        float | None:
-            Real part of the dominant stable pole (negative value).
-            Returns ``None`` if no stable poles are present.
-
-    Notes:
-        - Uses ``numpy.roots`` to compute poles.
-        - Only poles with negative real part are considered stable.
-        - For complex conjugate poles, only the real part determines dominance.
-        - If the system is unstable (no poles with negative real part),
-          ``None`` is returned.
-
-    Example:
-        >>> den = [1, 4, 6, 4, 1]
-        >>> p_dom = dominant_pole_realpart(den)
-        >>> print(p_dom)
-    """
-    roots = np.roots(denominator)
-    real_parts = roots.real
-
-    # keep only stable poles (left half-plane)
-    stable_real_parts = real_parts[real_parts < 0]
-
-    if stable_real_parts.size == 0:
-        return None
-
-    # dominant = closest to imaginary axis from the left
-    return np.max(stable_real_parts)
-
 
 def settling_time(
         t: np.ndarray,

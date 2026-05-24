@@ -4,7 +4,7 @@ from .enums import (
     ControllerType, map_enum_to_int
 )
 from .plant import Plant
-from .utils import dominant_pole_realpart, bode_plot, crossover_frequency, settling_time
+from .utils import bode_plot, crossover_frequency, settling_time
 
 __all__ = [
     "ClosedLoop",
@@ -18,7 +18,6 @@ __all__ = [
     "ControllerType",
     "map_enum_to_int",
     "Plant",
-    "dominant_pole_realpart",
     "bode_plot",
     "crossover_frequency",
     "settling_time"
