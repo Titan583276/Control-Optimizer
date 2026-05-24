@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        icon_helpers.py
+# Description:   Icon loading helpers for Qt views.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 """Icon loading helpers for Qt views."""
 from __future__ import annotations
 

@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the engine package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .plant_response_engine import PlantResponseEngine
 from .function_engine import FunctionEngine
 from .pso_simulation_engine import PsoSimulationEngine

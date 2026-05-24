@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the svg package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .svg_utils import (
     recolor_svg,
     merge_svgs,

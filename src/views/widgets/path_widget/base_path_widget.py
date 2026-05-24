@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        base_path_widget.py
+# Description:   Defines the BasePathWidget class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Optional
 
 from PySide6.QtWidgets import (

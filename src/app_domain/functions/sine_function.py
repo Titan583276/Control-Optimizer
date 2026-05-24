@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        sine_function.py
+# Description:   Sine function u(t) = A*sin(t + ) + y0.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 
 import numpy as np

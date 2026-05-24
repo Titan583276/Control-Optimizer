@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        base_banner.py
+# Description:   Defines the BaseBanner class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from PySide6.QtWidgets import QWidget, QLabel, QHBoxLayout
 from PySide6.QtCore import QTimer, Qt, QPropertyAnimation, QEasingCurve
 from PySide6.QtGui import QColor, QPalette

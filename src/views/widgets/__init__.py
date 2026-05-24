@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the widgets package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .aspect_ration_svg_widget import AspectRatioSvgWidget
 from .section_frame import SectionFrame
 from .toggleable_section_frame import ToggleableSectionFrame

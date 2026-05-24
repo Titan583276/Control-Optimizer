@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        figma_loading_overlay.py
+# Description:   Figma-style 3-dot loader that adapts to ThemeViewModel colors.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import math
 
 from PySide6.QtCore import Qt, QTimer, QPointF

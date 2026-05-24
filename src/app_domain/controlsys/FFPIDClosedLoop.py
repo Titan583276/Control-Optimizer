@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        FFPIDClosedLoop.py
+# Description:   Defines the FFPIDClosedLoop class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 
 import numpy as np

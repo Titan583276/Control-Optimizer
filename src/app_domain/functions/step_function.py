@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        step_function.py
+# Description:   General step function u(t) =  * (t - t0).
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 
 import numpy as np

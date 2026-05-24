@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        frequency_domain.py
+# Description:   Input parameters for computing the plant frequency response.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from dataclasses import dataclass
 from typing import List
 

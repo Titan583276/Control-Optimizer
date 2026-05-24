@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        settings_viewmodel.py
+# Description:   Defines the SettingsViewModel class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import TYPE_CHECKING
 

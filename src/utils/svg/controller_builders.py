@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        controller_builders.py
+# Description:   Build the anti-windup sub-diagram for the selected strategy.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 
 from typing import Callable

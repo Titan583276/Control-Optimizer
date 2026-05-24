@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        language_viewmodel.py
+# Description:   ViewModel that manages app language selection and translation
+#                loading.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import TYPE_CHECKING
 from PySide6.QtCore import QObject, QCoreApplication, QTranslator, Signal, Slot

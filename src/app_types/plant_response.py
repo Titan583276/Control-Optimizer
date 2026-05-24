@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        plant_response.py
+# Description:   Context for plant response computation.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import TYPE_CHECKING, Callable
 

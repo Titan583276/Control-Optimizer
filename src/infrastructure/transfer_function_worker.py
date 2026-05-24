@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        transfer_function_worker.py
+# Description:   Background worker for computing closedloop frequency
+#                responses.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import TYPE_CHECKING
 import logging

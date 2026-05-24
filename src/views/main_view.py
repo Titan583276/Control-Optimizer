@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        main_view.py
+# Description:   Main application window that hosts navigation and view stack.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import TYPE_CHECKING, Callable
 

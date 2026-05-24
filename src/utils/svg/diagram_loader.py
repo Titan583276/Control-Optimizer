@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        diagram_loader.py
+# Description:   Assemble a list of SvgData elements into a complete SVG
+#                document.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 
 from typing import Callable

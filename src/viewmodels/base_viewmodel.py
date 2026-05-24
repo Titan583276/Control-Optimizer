@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        base_viewmodel.py
+# Description:   Base class for all ViewModels.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from contextlib import contextmanager
 import logging
 from typing import Iterator

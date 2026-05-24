@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the infrastructure package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .function_worker import FunctionWorker
 from .plant_response_worker import PlantResponseWorker
 from .pos_simulation_worker import PsoSimulationWorker

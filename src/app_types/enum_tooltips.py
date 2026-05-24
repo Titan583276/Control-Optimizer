@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        enum_tooltips.py
+# Description:   Defines the PerformanceIndexDescription class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from enum import Enum
 
 from app_domain.controlsys import PerformanceIndex

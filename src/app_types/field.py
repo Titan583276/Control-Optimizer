@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        field.py
+# Description:   Defines the FieldConfig class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from enum import StrEnum
 from dataclasses import dataclass
 from typing import Type

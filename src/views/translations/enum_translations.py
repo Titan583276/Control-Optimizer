@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        enum_translations.py
+# Description:   Decorator to register a method as a translation handler for a
+#                given enum type.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import inspect
 from typing import Callable, Type, Any
 from PySide6.QtCore import QCoreApplication

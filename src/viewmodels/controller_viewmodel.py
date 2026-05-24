@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        controller_viewmodel.py
+# Description:   Defines the ControllerViewModel class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import TYPE_CHECKING, Any
 from PySide6.QtCore import QObject, Signal, Slot

@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the pso objective package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .time_domain_numba import (
     system_response,
     system_response_closed_loop,

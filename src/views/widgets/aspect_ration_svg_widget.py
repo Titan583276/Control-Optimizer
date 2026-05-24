@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        aspect_ration_svg_widget.py
+# Description:   SVG widget that preserves aspect ratio while scaling to
+#                available space.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 """SVG widget that preserves aspect ratio while scaling to available space."""
 
 from PySide6.QtSvgWidgets import QSvgWidget

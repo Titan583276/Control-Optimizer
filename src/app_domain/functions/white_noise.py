@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        white_noise.py
+# Description:   White noise generator: Gaussian with zero mean by default.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 import numpy as np
 from .base_function import BaseFunction

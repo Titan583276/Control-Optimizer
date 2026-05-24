@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        pso_configuration_view.py
+# Description:   View for configuring PSO parameters and running simulations.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 
 from typing import TYPE_CHECKING, Any, Callable

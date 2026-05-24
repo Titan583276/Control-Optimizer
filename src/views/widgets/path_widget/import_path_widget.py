@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        import_path_widget.py
+# Description:   Defines the ImportPathWidget class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Optional
 from PySide6.QtWidgets import QFileDialog, QWidget
 from PySide6.QtCore import Signal

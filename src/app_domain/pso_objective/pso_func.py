@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        pso_func.py
+# Description:   Defines the PsoEvaluationResult class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import math
 from dataclasses import dataclass
 from typing import Callable

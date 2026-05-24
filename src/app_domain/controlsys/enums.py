@@ -1,20 +1,10 @@
-# ──────────────────────────────────────────────────────────────────────────────
-# Project:       PID Optimizer
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
 # Module:        enums.py
-# Description:   Defines enumeration types used throughout the PID Optimizer, including
-#                anti-windup methods, performance indices, and solver selections. Also
-#                provides integer-based Enum variants for Numba compatibility and a utility
-#                to map regular Enums to their corresponding IntEnum types.
+# Description:   Defines the ControllerType class.
 #
-# Authors:       Florin Büchi, Thomas Stähli
-# Created:       01.12.2025
-# Modified:      01.12.2025
-# Version:       1.0
-#
-# License:       ZHAW Zürcher Hochschule für angewandte Wissenschaften (or internal use only)
-# ──────────────────────────────────────────────────────────────────────────────
-
-
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from enum import Enum, IntEnum, auto
 
 

@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        base_report.py
+# Description:   Defines the _convert_cell function.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from contextlib import contextmanager
 
 from reportlab.graphics.shapes import Drawing

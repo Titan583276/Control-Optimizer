@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        base_function.py
+# Description:   Abstract base class for mathematical functions.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import logging
 from abc import ABC, abstractmethod
 from typing import Callable

@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        browian_noise.py
+# Description:   Brownian noise (Wiener process).
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 import numpy as np
 from .base_function import BaseFunction

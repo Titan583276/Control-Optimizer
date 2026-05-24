@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        formula_widget.py
+# Description:   Formula label widget backed by LaTeX rendering.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 """Formula label widget backed by LaTeX rendering."""
 
 from PySide6.QtWidgets import QWidget, QLabel

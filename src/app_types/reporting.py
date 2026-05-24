@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        reporting.py
+# Description:   Defines the DynamicReportData class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 

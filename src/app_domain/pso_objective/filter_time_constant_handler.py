@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        filter_time_constant_handler.py
+# Description:   Report for the desired raw D-filter time constant and the
+#                applied limit.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import math
 from dataclasses import dataclass
 import numpy as np

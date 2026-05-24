@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the viewmodels package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .base_viewmodel import BaseViewModel
 from .plot_viewmodel import PlotViewModel
 from .bode_plot_viewmodel import BodePlotViewModel

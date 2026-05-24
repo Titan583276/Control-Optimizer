@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        latex_utils.py
+# Description:   Defines the latex_to_pixmap function.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import io
 import logging
 import matplotlib.pyplot as plt

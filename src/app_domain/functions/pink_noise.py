@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        pink_noise.py
+# Description:   Approximate pink noise generator (1/f spectrum).
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 import numpy as np
 from .base_function import BaseFunction

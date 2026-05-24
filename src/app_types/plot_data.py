@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        plot_data.py
+# Description:   Defines the PlotLabels class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Any

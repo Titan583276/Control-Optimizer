@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        __init__.py
+# Description:   Initializes the utils package.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from .formating import format_value, str2array, expr2array, array2expr, expr2latex, array2latex
 from .latex_utils import latex_to_pixmap, latex_to_drawing
 from .logged_property import LoggedProperty

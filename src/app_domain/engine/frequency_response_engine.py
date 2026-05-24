@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        frequency_response_engine.py
+# Description:   Engine for frequency-domain analysis of control systems.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import logging
 from typing import Callable
 

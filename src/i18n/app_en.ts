@@ -51,12 +51,12 @@
         <translation>Phase</translation>
     </message>
     <message>
-        <location filename="../views/widgets/bode_plot_widget.py" line="73"/>
+        <location filename="../views/widgets/bode_plot_widget.py" line="74"/>
         <source>Min. frequency</source>
         <translation>Min. frequency</translation>
     </message>
     <message>
-        <location filename="../views/widgets/bode_plot_widget.py" line="74"/>
+        <location filename="../views/widgets/bode_plot_widget.py" line="75"/>
         <source>Max. frequency</source>
         <translation>Max. frequency</translation>
     </message>
@@ -79,7 +79,7 @@ Unit: rad/s.
 Must be greater than the lower frequency limit.</translation>
     </message>
     <message>
-        <location filename="../views/widgets/bode_plot_widget.py" line="77"/>
+        <location filename="../views/widgets/bode_plot_widget.py" line="78"/>
         <source>Lower frequency limit (ω_min).
             Defines where the frequency axis begins.
             Unit: rad/s.</source>
@@ -88,7 +88,7 @@ Defines where the frequency axis begins.
 Unit: rad/s.</translation>
     </message>
     <message>
-        <location filename="../views/widgets/bode_plot_widget.py" line="83"/>
+        <location filename="../views/widgets/bode_plot_widget.py" line="84"/>
         <source>Upper frequency limit (ω_max).
             Defines where the frequency axis ends.
             Unit: rad/s.
@@ -662,12 +662,12 @@ If the sampling rate is unknown, leave this field empty to receive a recommended
         <translation>Output</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="365"/>
+        <location filename="../views/evaluation_view.py" line="366"/>
         <source>System Analysis and Visualization</source>
         <translation>System Analysis and Visualization</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="384"/>
+        <location filename="../views/evaluation_view.py" line="385"/>
         <source>Closed Loop</source>
         <translation>Closed Loop</translation>
     </message>
@@ -725,69 +725,69 @@ If the sampling rate is unknown, leave this field empty to receive a recommended
         <translation>Min. sampling rate: %(sampling_rate)s Hz</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="364"/>
+        <location filename="../views/evaluation_view.py" line="365"/>
         <source>PSO Result</source>
         <translation>PSO Result</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="368"/>
-        <location filename="../views/evaluation_view.py" line="378"/>
+        <location filename="../views/evaluation_view.py" line="369"/>
+        <location filename="../views/evaluation_view.py" line="379"/>
         <source>Time Domain</source>
         <translation>Time Domain</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="369"/>
-        <location filename="../views/evaluation_view.py" line="379"/>
+        <location filename="../views/evaluation_view.py" line="370"/>
+        <location filename="../views/evaluation_view.py" line="380"/>
         <source>Frequency Domain</source>
         <translation>Frequency Domain</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="370"/>
+        <location filename="../views/evaluation_view.py" line="371"/>
         <source>Block Diagram</source>
         <translation>Block Diagram</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="371"/>
+        <location filename="../views/evaluation_view.py" line="372"/>
         <source>Transfer Functions</source>
         <translation>Transfer Functions</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="374"/>
+        <location filename="../views/evaluation_view.py" line="375"/>
         <source>PSO run time</source>
         <translation>PSO Run Time</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="376"/>
+        <location filename="../views/evaluation_view.py" line="377"/>
         <source>Filter Time Constant</source>
         <translation>Filter Time Constant</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="377"/>
+        <location filename="../views/evaluation_view.py" line="378"/>
         <source>Performance Index</source>
         <translation>Performance Index</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="381"/>
+        <location filename="../views/evaluation_view.py" line="382"/>
         <source>Plant</source>
         <translation>Plant</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="382"/>
+        <location filename="../views/evaluation_view.py" line="383"/>
         <source>Controller</source>
         <translation>Controller</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="383"/>
+        <location filename="../views/evaluation_view.py" line="384"/>
         <source>Open Loop</source>
         <translation>Open Loop</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="385"/>
+        <location filename="../views/evaluation_view.py" line="386"/>
         <source>Sensitivity</source>
         <translation>Sensitivity</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="392"/>
+        <location filename="../views/evaluation_view.py" line="393"/>
         <source>No parameters could be found that would not violate the constraints. Try different settings.</source>
         <translation>No parameters could be found that would not violate the constraints. Try different settings.</translation>
     </message>
@@ -796,7 +796,7 @@ If the sampling rate is unknown, leave this field empty to receive a recommended
         <translation type="vanished">Not feasible</translation>
     </message>
     <message>
-        <location filename="../views/evaluation_view.py" line="375"/>
+        <location filename="../views/evaluation_view.py" line="376"/>
         <source>Controller Parameters</source>
         <translation>Controller Parameters</translation>
     </message>
@@ -818,12 +818,12 @@ If the sampling rate is unknown, leave this field empty to receive a recommended
         <translation>Output</translation>
     </message>
     <message>
-        <location filename="../views/function_view.py" line="137"/>
+        <location filename="../views/function_view.py" line="138"/>
         <source>Excitation Function Definition</source>
         <translation>Excitation Function Definition</translation>
     </message>
     <message>
-        <location filename="../views/function_view.py" line="138"/>
+        <location filename="../views/function_view.py" line="139"/>
         <source>Excitation Function Plot</source>
         <translation>Excitation Function Plot</translation>
     </message>
@@ -2010,17 +2010,17 @@ optimization across the entire parameter space.
 <context>
     <name>PlantView</name>
     <message>
-        <location filename="../views/plant_view.py" line="292"/>
+        <location filename="../views/plant_view.py" line="293"/>
         <source>plant.num</source>
         <translation>Numerator</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="293"/>
+        <location filename="../views/plant_view.py" line="294"/>
         <source>plant.den</source>
         <translation>Denumerator</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="286"/>
+        <location filename="../views/plant_view.py" line="287"/>
         <source>Step Response</source>
         <translation>Step Response</translation>
     </message>
@@ -2039,48 +2039,48 @@ optimization across the entire parameter space.
         <translation type="vanished">Plant</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="285"/>
+        <location filename="../views/plant_view.py" line="286"/>
         <source>Transfer function</source>
         <translation>Transfer Function</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="289"/>
+        <location filename="../views/plant_view.py" line="290"/>
         <source>Polynomial</source>
         <translation>Polynomial</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="290"/>
+        <location filename="../views/plant_view.py" line="291"/>
         <source>Pole-Zeros</source>
         <translation>Pole-Zeros</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="294"/>
+        <location filename="../views/plant_view.py" line="295"/>
         <source>plant.zero</source>
         <translation>Zeros</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="295"/>
+        <location filename="../views/plant_view.py" line="296"/>
         <source>plant.pole</source>
         <translation>Poles</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="297"/>
-        <location filename="../views/plant_view.py" line="299"/>
+        <location filename="../views/plant_view.py" line="298"/>
+        <location filename="../views/plant_view.py" line="300"/>
         <source>e.g. 1  → 1</source>
         <translation>e.g. 1  → 1</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="298"/>
+        <location filename="../views/plant_view.py" line="299"/>
         <source>e.g. 1, 2, 1  → 1s² + 2s + 1</source>
         <translation>e.g. 1, 2, 1  → 1s² + 2s + 1</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="300"/>
+        <location filename="../views/plant_view.py" line="301"/>
         <source>e.g. (s + 1)^2  → (s + 1)²</source>
         <translation>e.g. (s + 1)^2  → (s + 1)²</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="302"/>
+        <location filename="../views/plant_view.py" line="303"/>
         <source>Enter coefficients separated by commas, spaces, or semicolons.
         Use &apos;.&apos; as the decimal point.
         The first number corresponds to the highest power of s.
@@ -2091,7 +2091,7 @@ The first number corresponds to the highest power of s.
 Example: 1, 0.5, 2 → 1*s² + 0.5*s + 2</translation>
     </message>
     <message>
-        <location filename="../views/plant_view.py" line="309"/>
+        <location filename="../views/plant_view.py" line="310"/>
         <source>Enter a polynomial expression in s (factors or expanded form).
         Use parentheses for factors. Multiplication can be implicit.
         Use &apos;^&apos; for powers.
@@ -2152,22 +2152,22 @@ Example: (s+1)(s+2) or s^2 + 3*s + 2</translation>
 <context>
     <name>PlotWidget</name>
     <message>
-        <location filename="../views/widgets/plot_widget.py" line="264"/>
+        <location filename="../views/widgets/plot_widget.py" line="266"/>
         <source>plot.grid</source>
         <translation>Grid</translation>
     </message>
     <message>
-        <location filename="../views/widgets/plot_widget.py" line="265"/>
+        <location filename="../views/widgets/plot_widget.py" line="267"/>
         <source>plot.start</source>
         <translation>Start time</translation>
     </message>
     <message>
-        <location filename="../views/widgets/plot_widget.py" line="266"/>
+        <location filename="../views/widgets/plot_widget.py" line="268"/>
         <source>plot.end</source>
         <translation>End time</translation>
     </message>
     <message>
-        <location filename="../views/widgets/plot_widget.py" line="267"/>
+        <location filename="../views/widgets/plot_widget.py" line="269"/>
         <source>Lower x-axis limit (x_min).
         Defines where the time axis begins.
         Unit: seconds (s).</source>
@@ -2176,7 +2176,7 @@ Defines where the time axis begins.
 Unit: seconds (s).</translation>
     </message>
     <message>
-        <location filename="../views/widgets/plot_widget.py" line="270"/>
+        <location filename="../views/widgets/plot_widget.py" line="272"/>
         <source>Upper x-axis limit (x_max).
         Defines where the time axis ends.
         Unit: seconds (s).
@@ -2187,7 +2187,7 @@ Unit: seconds (s).
 Must be greater than the start time.</translation>
     </message>
     <message>
-        <location filename="../views/widgets/plot_widget.py" line="275"/>
+        <location filename="../views/widgets/plot_widget.py" line="277"/>
         <source>plot.legend</source>
         <translation>Legend</translation>
     </message>
@@ -2602,12 +2602,12 @@ Limits how strongly the closed loop system responds to disturbances and model un
         <translation>Output</translation>
     </message>
     <message>
-        <location filename="../views/simulation_view.py" line="176"/>
+        <location filename="../views/simulation_view.py" line="177"/>
         <source>Excitation Function Definition</source>
         <translation>Excitation Function Definition</translation>
     </message>
     <message>
-        <location filename="../views/simulation_view.py" line="177"/>
+        <location filename="../views/simulation_view.py" line="178"/>
         <source>System Analysis and Visualization</source>
         <translation>System Analysis and Visualization</translation>
     </message>

@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        pso_simulation_snapshot.py
+# Description:   Defines the PsoSimulationSnapshot class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from dataclasses import dataclass
 
 from app_domain.controlsys import AntiWindup, ExcitationTarget, PerformanceIndex, ControllerType

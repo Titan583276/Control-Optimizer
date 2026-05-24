@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        layout_helpers.py
+# Description:   Layout creation and utility helpers for Qt views.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 """Layout creation and utility helpers for Qt views."""
 from __future__ import annotations
 

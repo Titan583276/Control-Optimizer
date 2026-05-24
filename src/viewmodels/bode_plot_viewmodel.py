@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        bode_plot_viewmodel.py
+# Description:   Defines the BodePlotViewModel class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from utils import LoggedProperty
 from .plot_viewmodel import PlotViewModel
 from app_types import PlotField

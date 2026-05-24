@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        settings_model.py
+# Description:   Model handling application settings with persistent storage
+#                and logging.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import json
 import logging
 from pathlib import Path

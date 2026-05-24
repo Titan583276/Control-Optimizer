@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        formating.py
+# Description:   Format numbers with N significant digits, preserving floats
+#                like 5.0.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import re
 from sympy import expand, Poly, symbols, factor, simplify, latex, sympify
 

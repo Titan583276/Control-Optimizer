@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        function_types.py
+# Description:   Defines the FunctionTypes class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from enum import Enum
 
 from ..functions.base_function import BaseFunction

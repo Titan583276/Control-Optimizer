@@ -1,20 +1,10 @@
-# ──────────────────────────────────────────────────────────────────────────────
-# Project:       PID Optimizer
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
 # Module:        swarmlib.py
-# Description:   Implements a Particle Swarm Optimization (PSO) framework including particle
-#                dynamics, swarm management, adaptive neighborhood selection, and convergence
-#                criteria. Provides a configurable optimizer capable of evaluating arbitrary
-#                objective functions and tracking global and personal best solutions.
+# Description:   Deb-like lexicographic comparison for PSO selection.
 #
-# Authors:       Florin Büchi, Thomas Stähli
-# Created:       01.12.2025
-# Modified:      01.12.2025
-# Version:       1.0
-#
-# License:       ZHAW Zürcher Hochschule für angewandte Wissenschaften (or internal use only)
-# ──────────────────────────────────────────────────────────────────────────────
-
-
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import copy
 import math
 import random

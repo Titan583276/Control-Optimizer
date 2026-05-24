@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        logged_property.py
+# Description:   Defines the LoggedProperty class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from PySide6.QtCore import Property
 from typing import Callable, Any, Optional
 

@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        frequency_grid_engine.py
+# Description:   Engine for generating frequency grids for frequency-domain
+#                analysis.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 import logging
 import numpy as np
 

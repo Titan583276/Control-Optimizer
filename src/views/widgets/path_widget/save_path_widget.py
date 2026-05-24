@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        save_path_widget.py
+# Description:   Defines the SavePathWidget class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Optional
 from PySide6.QtWidgets import QFileDialog, QWidget, QMessageBox
 from PySide6.QtCore import Signal

@@ -1,20 +1,10 @@
-# ──────────────────────────────────────────────────────────────────────────────
-# Project:       PID Optimizer
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
 # Module:        closedLoop.py
-# Description:   Provides the abstract ClosedLoop base class used to represent and simulate
-#                closed-loop systems in the PID Optimizer. Includes transfer function
-#                computation, disturbance responses, and step simulation utilities. Concrete
-#                controllers must implement the controller() and system_response() methods.
+# Description:   Defines the ClosedLoop class.
 #
-# Authors:       Florin Büchi, Thomas Stähli
-# Created:       01.12.2025
-# Modified:      01.12.2025
-# Version:       1.0
-#
-# License:       ZHAW Zürcher Hochschule für angewandte Wissenschaften (or internal use only)
-# ──────────────────────────────────────────────────────────────────────────────
-
-
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from abc import ABC, abstractmethod
 from typing import Callable
 

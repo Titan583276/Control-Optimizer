@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        widget_binding.py
+# Description:   Force QSS pseudo-state/dynamic-property repaint after
+#                programmatic changes.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 
 import inspect

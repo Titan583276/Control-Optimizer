@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        validation_helpers.py
+# Description:   Validation UI helpers for Qt views.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 """Validation UI helpers for Qt views."""
 from __future__ import annotations
 

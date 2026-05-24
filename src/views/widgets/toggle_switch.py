@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        toggle_switch.py
+# Description:   Defines the TextPosition class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from enum import Enum
 from PySide6.QtCore import (
     Property, QPropertyAnimation, QEasingCurve, QRectF, QSize, Qt, Signal, Slot

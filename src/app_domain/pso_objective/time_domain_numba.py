@@ -1,19 +1,10 @@
 # ------------------------------------------------------------------------------
-# Project:       PID Optimizer
-# Module:        pso_system_optimization.py
-# Description:   Provides Numba-accelerated simulation routines and performance index evaluation
-#                for PSO-based PID optimization. Includes PID update logic, ODE solvers,
-#                closed-loop and open-loop response functions, and a vectorized PSO objective
-#                function for evaluating multiple PID parameter sets in parallel.
+# Project:       Control Optimizer
+# Module:        time_domain_numba.py
+# Description:   Allocate and initialize controller state array.
 #
 # Authors:       Florin Buechi, Thomas Staehli
-# Created:       01.12.2025
-# Modified:      09.03.2026
-# Version:       1.2
-#
-# License:       ZHAW Zuercher Hochschule fuer angewandte Wissenschaften (or internal use only)
 # ------------------------------------------------------------------------------
-
 import numpy as np
 from numba import njit, prange, float64, int64
 from app_domain.controlsys.enums import ControllerType, PerformanceIndexInt, AntiWindupInt, MySolverInt

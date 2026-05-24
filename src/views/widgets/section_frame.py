@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        section_frame.py
+# Description:   Reusable section frame with header and content area.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 """Reusable section frame with header and content area."""
 
 from PySide6.QtCore import Property, Qt, Signal

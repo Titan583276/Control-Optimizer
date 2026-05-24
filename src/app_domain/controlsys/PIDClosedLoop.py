@@ -1,19 +1,10 @@
-# ──────────────────────────────────────────────────────────────────────────────
-# Project:       PID Optimizer
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
 # Module:        PIDClosedLoop.py
-# Description:   Implements the PIDClosedLoop class, providing a closed-loop control system
-#                based on an ideal/ISA PID controller parameterized either in parallel gain form
-#                or in ISA time-constant form. Supports filtered derivative action, output
-#                constraints, anti-windup strategies, frequency-domain evaluation, and time-domain
-#                simulation via the plant model and compiled response function.
+# Description:   Defines the PIDClosedLoop class.
 #
-# Authors:       Florin Büchi, Thomas Stähli
-# Created:       01.12.2025
-# Modified:      01.12.2025
-# Version:       1.0
-#
-# License:       ZHAW Zürcher Hochschule für angewandte Wissenschaften (or internal use only)
-# ──────────────────────────────────────────────────────────────────────────────
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 
 import numpy as np

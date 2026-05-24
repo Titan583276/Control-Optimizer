@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        plot_style.py
+# Description:   Implements the plot style module.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from collections.abc import Mapping
 
 from app_types import PlotLabels, PlotStyle

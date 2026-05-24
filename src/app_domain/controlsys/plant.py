@@ -1,20 +1,11 @@
-# ──────────────────────────────────────────────────────────────────────────────
-# Project:       PID Optimizer
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
 # Module:        plant.py
-# Description:   Defines the Plant class representing a linear time-invariant system specified
-#                by its transfer function. Provides state-space conversion, transfer-function
-#                evaluation, dominant time-constant estimation, and utilities for open-loop
-#                frequency- and time-domain simulation, including step responses.
+# Description:   Represents a linear time-invariant (LTI) system defined by its
+#                transfer function.
 #
-# Authors:       Florin Büchi, Thomas Stähli
-# Created:       01.12.2025
-# Modified:      01.12.2025
-# Version:       1.0
-#
-# License:       ZHAW Zürcher Hochschule für angewandte Wissenschaften (or internal use only)
-# ──────────────────────────────────────────────────────────────────────────────
-
-
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from typing import Callable
 
 import numpy as np

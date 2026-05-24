@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        conect_signal_config.py
+# Description:   Protocol for the main event handler.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from __future__ import annotations
 from typing import Optional, Any, TYPE_CHECKING, Protocol, Callable
 from dataclasses import dataclass, field

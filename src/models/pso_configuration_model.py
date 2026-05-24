@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Project:       Control Optimizer
+# Module:        pso_configuration_model.py
+# Description:   Defines the PsoConfigurationModel class.
+#
+# Authors:       Florin Buechi, Thomas Staehli
+# ------------------------------------------------------------------------------
 from dataclasses import dataclass, field
 
 from app_domain.controlsys import ExcitationTarget, PerformanceIndex
