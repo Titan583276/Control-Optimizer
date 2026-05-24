@@ -247,7 +247,7 @@ function plot_step_responses(results, cfg)
 
     response_handles = gobjects(numel(results), 1);
     for k = 1:numel(results)
-        legend_label = sprintf("ITAE = %.2f, %s", results(k).itae_doc, char(results(k).label));
+        legend_label = char(results(k).label);
         response_handles(k) = plot(ax, results(k).t, results(k).y, "LineWidth", 1.4, "DisplayName", legend_label);
     end
 
