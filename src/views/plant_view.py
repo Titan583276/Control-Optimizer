@@ -239,7 +239,8 @@ class PlantView(ViewMixin, QWidget):
             context="PlantView",
             x_label=str(QT_TRANSLATE_NOOP("PlantView", "Time [s]")),
             y_label=str(QT_TRANSLATE_NOOP("PlantView", "Output")),
-            show_x_min=False
+            show_x_min=False,
+            redraw_on_axis_change=False,
         )
 
         plot_view = PlotWidget(self._ui_context, self._vm_plot, plot_cfg, parent=self)

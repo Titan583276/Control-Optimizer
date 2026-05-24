@@ -60,6 +60,7 @@ class BodePlotWidget(PlotWidget):
             context="BodePlotWidget",
             subplot=(2, 1),
             subplot_configuration=subplot_cfgs,
+            redraw_on_axis_change=False,
         )
 
         super().__init__(ui_context, vm, plt_cfg, parent)

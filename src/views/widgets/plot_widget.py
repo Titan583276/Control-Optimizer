@@ -45,6 +45,7 @@ class PlotWidgetConfiguration:
     subplot_configuration: dict[int, SubplotConfiguration] = field(default_factory=dict)
     show_x_min: bool = True
     show_x_max: bool = True
+    redraw_on_axis_change: bool = True
     # Width / height ratio for a fixed-size canvas. Set None to allow free resizing.
     fixed_aspect_ratio: float | None = 3 / 1
     max_width: int = 1250
@@ -228,8 +229,9 @@ class PlotWidget(ViewMixin, QWidget):
         self._vm.gridChanged.connect(self._schedule_plot_update)
         self._vm.dataChanged.connect(self._schedule_plot_update)
         self._vm.loadingChanged.connect(self._update_loading_state)
-        self._vm.xMinChanged.connect(self._schedule_plot_update)
-        self._vm.xMaxChanged.connect(self._schedule_plot_update)
+        if self._cfg.redraw_on_axis_change:
+            self._vm.xMinChanged.connect(self._schedule_plot_update)
+            self._vm.xMaxChanged.connect(self._schedule_plot_update)
         self._vm.saveSvgRequested.connect(self.save_svg)
 
         # Define key variables for readability

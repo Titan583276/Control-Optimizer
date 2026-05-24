@@ -96,6 +96,7 @@ class FunctionView(ViewMixin, QWidget):
             context="FunctionView",
             x_label=str(QT_TRANSLATE_NOOP("FunctionView", "Time [s]")),
             y_label=str(QT_TRANSLATE_NOOP("FunctionView", "Output")),
+            redraw_on_axis_change=False,
         )
 
         plot_view = PlotWidget(self._ui_context, self._vm_plot, self._plot_cfg, parent=self)

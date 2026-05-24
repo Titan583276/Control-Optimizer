@@ -270,6 +270,7 @@ class EvaluationView(ViewMixin, QWidget):
             context="EvaluationView",
             subplot=(2, 1),
             subplot_configuration=subplot_cfgs,
+            redraw_on_axis_change=False,
         )
 
         widget = PlotWidget(self._ui_context, self._vm_plots[TIME_DOMAIN], cl_plot_cfg, parent=self._plot_tab)

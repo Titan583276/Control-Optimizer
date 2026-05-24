@@ -125,6 +125,7 @@ class SimulationView(ViewMixin, QWidget):
             context="SimulationView",
             subplot=(2, 1),
             subplot_configuration=subplot_cfgs,
+            redraw_on_axis_change=False,
         )
 
         plot_view = PlotWidget(self._ui_context, self._vm_plot, cl_plot_cfg, parent=frame)
