@@ -24,7 +24,7 @@ class RectangularFunction(BaseFunction):
 
     def get_formula(self) -> str:
         """Return a string representation of the function."""
-        return r"u(t) = A \cdot \mathrm{rect}(\omega t + \varphi, D) + u_0"
+        return r"f(t) = A \cdot \mathrm{rect}(\omega t + \varphi, D) + u_0"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         """Return a vectorized rectangular function."""

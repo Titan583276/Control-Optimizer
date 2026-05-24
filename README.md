@@ -375,7 +375,7 @@ class ExampleFunction(BaseFunction):
         }
 
     def get_formula(self) -> str:
-        return r"u(t) = \alpha t + \frac{\beta}{t} - \gamma"
+        return r"f(t) = \alpha t + \frac{\beta}{t} - \gamma"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         alpha = self._param[r"\alpha"]

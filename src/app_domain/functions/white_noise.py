@@ -16,7 +16,7 @@ class WhiteNoise(BaseFunction):
         self._logger.info("WhiteNoise initialized with params: %s", self._param)
 
     def get_formula(self) -> str:
-        return r"W(t) \sim \mathcal{N}(\mu, \sigma^2)"
+        return r"f(t) \sim \mathcal{N}(\mu, \sigma^2)"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         mu = self._param[r"\mu"]

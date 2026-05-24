@@ -15,7 +15,7 @@ class BrownianNoise(BaseFunction):
         self._logger.info("BrownianNoise initialized with params: %s", self._param)
 
     def get_formula(self) -> str:
-        return r"B(t) \sim \mathcal{N}(0, \sigma^2 \delta t)"
+        return r"f(t) \sim \mathcal{N}(0, \sigma^2 \delta t)"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         sigma = self._param[r"\sigma"]

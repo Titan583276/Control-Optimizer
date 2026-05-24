@@ -15,7 +15,7 @@ class PinkNoise(BaseFunction):
         self._logger.info("PinkNoise initialized with params: %s", self._param)
 
     def get_formula(self) -> str:
-        return r"P(f) \sim \frac{1}{f}"
+        return r"f(f) \sim \frac{1}{f}"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         sigma = self._param[r"\sigma"]

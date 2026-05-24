@@ -15,7 +15,7 @@ class NullFunction(BaseFunction):
 
     def get_formula(self) -> str:
         """Return a string representation of the function (for display)."""
-        return r"u(t) = 0"
+        return r"f(t) = 0"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         """Return a vectorized zero function."""

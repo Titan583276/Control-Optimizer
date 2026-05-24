@@ -21,7 +21,7 @@ class CosineFunction(BaseFunction):
 
     def get_formula(self) -> str:
         """Return a string representation of the function (for display)."""
-        return r"u(t) = A \cdot \cos(\omega t + \varphi) + u_0"
+        return r"f(t) = A \cdot \cos(\omega t + \varphi) + u_0"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         """Return a vectorized sine function using current parameters."""

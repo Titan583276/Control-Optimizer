@@ -21,7 +21,7 @@ class StepFunction(BaseFunction):
 
     def get_formula(self) -> str:
         """Return a string representation of the function (for display)."""
-        return r"u(t) = \lambda \cdot \sigma(t - t_0)"
+        return r"f(t) = \lambda \cdot \sigma(t - t_0)"
 
     def get_function(self) -> Callable[[np.ndarray], np.ndarray]:
         """Return a vectorized function computing the step."""
