@@ -31,9 +31,16 @@ def show_splash():
     return splash
 
 
-def setup_logging(log_dir, log_level):
-    log_file = log_dir / "app.log"
+def setup_logging(log_dir: Path, log_level: int = logging.INFO, disabled: bool = False):
+    # Disable all logging globally
+    if disabled:
+        logging.disable(logging.CRITICAL + 1)
+        return
 
+    # Re-enable logging in case it was previously disabled
+    logging.disable(logging.NOTSET)
+
+    log_file = log_dir / "app.log"
     log_dir.mkdir(parents=True, exist_ok=True)
 
     if log_file.exists():
@@ -54,11 +61,11 @@ def setup_logging(log_dir, log_level):
         "matplotlib.ticker"
     )
 
-    for log in noisy_logs:
-        logging.getLogger(log).setLevel(logging.CRITICAL + 1)
+    for name in noisy_logs:
+        logging.getLogger(name).setLevel(logging.CRITICAL + 1)
 
 
-def setup_output_directory(output_dir):
+def setup_output_directory(output_dir: Path):
     import shutil
 
     # Remove the directory if it exists
@@ -225,7 +232,7 @@ def run_app():
 
     app.setWindowIcon(QIcon(str(icon_path)))
 
-    setup_logging(LOG_DIR, logging.DEBUG)
+    setup_logging(LOG_DIR, logging.DEBUG, True)
     setup_output_directory(TEMP_DIR)
 
     engine = create_engine()
