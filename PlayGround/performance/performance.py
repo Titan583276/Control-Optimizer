@@ -138,6 +138,5 @@ def main():
         output_path.write_text(json.dumps(stats.to_dict(), indent=2), encoding="utf-8")
         print(f"\nSaved JSON results to {output_path}")
 
-
 if __name__ == "__main__":
     main()
