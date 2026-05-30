@@ -383,7 +383,7 @@ class ExampleFunction(BaseFunction):
         gamma = self._param[r"\gamma"]
 
         def u(t: np.ndarray) -> np.ndarray:
-            return alpha * t + beta / t + gamma
+          return alpha * t + beta / t - gamma
 
         return u
 ```
